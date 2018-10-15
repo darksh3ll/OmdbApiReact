@@ -2,9 +2,12 @@
     grid-gap: 20px;
     color: white;
 }
+.meta {
+    color: white;
+}
 /*Ipad*/
 @media screen and (min-width: 425px) {
-.cardsMovies {
+.App {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -26,7 +29,7 @@
 /*Medium*/
 
 @media screen and (min-width: 768px) {
-    .cardsMovies {
+    .App {
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }

@@ -10,16 +10,12 @@ class App extends Component {
         film:[]
     };
 
-    // FetthData = async (film) => {
-    //     const data = await fetch(`http://www.omdbapi.com/?s="${film}"&apikey=4b10f1ee`)
-    //     const json = await Object.keys(data.json());
-    //     this.setState({film:json})
-    // };
+
     componentDidMount() {
-        const film = "terminator";
+        const film = "world";
         fetch(`http://www.omdbapi.com/?s="${film}"&apikey=4b10f1ee`)
             .then(response => response.json())
-            .then(response => this.setState({film:response}))
+            .then(response => this.setState({film:response.Search}))
     }
 
     render() {
@@ -27,6 +23,7 @@ class App extends Component {
 
         return (
       <div className="App">
+
               {
                 this.state.film.map((movie,key) => {
                     return (
