@@ -2,3 +2,6 @@ body {
     background: url("https://wallpapersmug.com/download/3840x2400/ea7c91/venom-tom-hardy-movie-5k.jpg")center fixed;
     background-size: cover;
 }
+input {
+    border: 1px solid seagreen;
+}

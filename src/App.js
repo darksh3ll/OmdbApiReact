@@ -7,12 +7,12 @@ import data from "./components/data/data"
 
 class App extends Component {
     state = {
-        film:[]
+        film:[],
     };
 
 
     componentDidMount() {
-        const film = "terminator";
+        const film = "underworld";
         fetch(`http://www.omdbapi.com/?s="${film}"&apikey=4b10f1ee`)
             .then(response => response.json())
             .then(response => this.setState({film:response.Search}))
@@ -36,6 +36,7 @@ class App extends Component {
                         )
                 })
               }
+
           </div>
 
 
