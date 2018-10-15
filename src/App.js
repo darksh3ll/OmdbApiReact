@@ -12,7 +12,7 @@ class App extends Component {
 
 
     componentDidMount() {
-        const film = "world";
+        const film = "terminator";
         fetch(`http://www.omdbapi.com/?s="${film}"&apikey=4b10f1ee`)
             .then(response => response.json())
             .then(response => this.setState({film:response.Search}))
