@@ -1,13 +1,13 @@
 .cardsMovies {
     grid-gap: 20px;
-    color: white;
+    color: deeppink;
 }
 .meta {
     color: white;
 }
 /*Ipad*/
 @media screen and (min-width: 425px) {
-.App {
+.cards {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -15,11 +15,9 @@
 }
 
 .Movie {
-    border: 1px solid rgba(255, 255, 0, 0.31);
-
+    border: 1px solid rgba(255, 20, 147, 0.36);
     display: grid;
     justify-items: center;
-
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .Movie img {
@@ -29,9 +27,8 @@
 /*Medium*/
 
 @media screen and (min-width: 768px) {
-    .App {
+    .cards {
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
-
 }

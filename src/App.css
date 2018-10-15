@@ -3,5 +3,21 @@ body {
     background-size: cover;
 }
 input {
-    border: 1px solid seagreen;
+   height: 30px;
+    opacity: 0.8;
+    font-size: 2em;
+    border: 1px solid deeppink;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: deeppink;
 }
