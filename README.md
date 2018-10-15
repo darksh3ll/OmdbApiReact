@@ -1,4 +1,4 @@
-[https://www.youtube.com/embed/jlwBr0upl1s](https://www.youtube.com/embed/jlwBr0upl1s)
+[Video du projet](https://www.youtube.com/watch?v=jlwBr0upl1s)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
